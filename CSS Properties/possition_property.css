@@ -1,0 +1,40 @@
+/* Position Property */
+          /* .fourth{
+            position:fixed;//reference browser viewport
+            bottom:20px;
+            right:20px;
+          color: red;
+          } */
+           /* reference its own position */
+          /* .fourth{
+            position:relative;
+            bottom:50px;
+          color: red;
+          } */
+           /* absolute :reference of first element*/
+           .fourth{
+            position:absolute;
+          bottom:20px;
+          color: red;
+              }
+           /* div{
+            margin:100px auto;
+           } */
+           #one{
+            position: relative;
+            width:300px;
+            height: 300px;
+            border-style: solid;
+            color: white;
+            background-color:black ;
+           }
+           #two{
+            position: absolute;
+            left:6px;
+            top: 50px;
+            width:150px;
+            height: 150px;
+            border-style: solid;
+            color:magenta;
+            background-color: cyan;
+            }

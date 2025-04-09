@@ -1,0 +1,20 @@
+
+
+.media{
+    width:25%;
+    height: 250px;
+    border-style:solid;
+    /* display:inline-block; */
+    box-sizing: border-box; 
+    float:left; 
+   }
+   [class*="col-"]
+   {
+    width:50%;
+   }
+   @media only screen and (min-width:768px)
+   {
+    .col-3{
+      width:25%;
+    }
+   }

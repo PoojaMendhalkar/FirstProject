@@ -1,0 +1,110 @@
+/* Tag Selector */
+h2{
+    color: chartreuse;
+    background-color: bisque;
+}
+
+/* id Selector */
+#one{
+    color: bisque;
+    background-color: blueviolet;
+}
+
+/* class Selector */
+.one{
+    color: brown;
+    background-color: aqua;
+}
+
+/* Group Selector */
+b,i{
+    color: green;
+}
+
+/* combinator selector - desendent selector */
+div p{
+    color: blue;
+}
+
+/* combinator selector - child selector */
+div>p{
+    color: green;
+}
+
+/* combinator selector - adjacent sibling selector */
+div+p{
+    color: blueviolet;
+}
+
+/* combinator selector - all sibling selector */
+div~p{
+    color: brown;
+}
+
+/* psueudo class selector */
+a:link{
+    /* It will highlight the link which are not active means unvisited link */
+    color:green
+}
+a:visited{
+    /* THis will apply to the visited link means the page is present in our system */
+  color:red;
+}
+a:hover{
+    /* This will change color once we hover it */
+  background-color: aqua;
+}
+a:active{
+    /* This will change the color of link once we press the link  */
+  color:brown;
+}
+
+/* ATTRIBUTE SELECTOR */
+[type="text"]
+{
+ background-color: yellow;
+ color:blueviolet;
+}
+[class*="test"]
+{
+ background-color: blue;
+}
+[class*="ing"]
+{
+ background-color: wheat;
+}
+
+/* Universal selctor */
+/* *{
+    background-color: darkseagreen;
+    font-style: italic;
+} */
+
+/* color property:by name,by hexadecimal,by RGB 
+  hexadecimal  R         G         B
+            00 to ff   00 to ff   00 to ff
+               000000=>black
+               ffffff=>white
+      R           G         B
+  0 to 255      0 to 255   0 to 255
+
+  */
+p{
+    /* color:#12AB45; */
+    color:rgb(233, 34, 34)
+  }
+
+/* text property */
+p{
+    text-align: center;
+    /* text-decoration: line-through;(underline,overline) */
+    /* text-transform: capitalize;(uppercase,lowercase) */
+    /* text-indent: 10px; */
+    line-height: 30px;
+    /* word-spacing: 5px; */
+    /* letter-spacing: 5px; */
+    /* font-size: 15px; */
+    font-weight: normal;
+    /* font-style: italic; */
+    font-style: normal;
+   }  

@@ -1,0 +1,21 @@
+/* BOX PROPERTY */
+/* p{
+    height: 300px;
+    width: 100%;
+    border: dashed;
+    border-left: double;
+    border-radius: 60px;
+    border-color: chartreuse;
+} */
+
+/* Padding and Margine property */
+p{
+    text-align: center;
+    width: 300;
+    height: 300;
+    border-style: double;
+    box-sizing: border-box;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    margin: 10px auto;
+}

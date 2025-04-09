@@ -1,0 +1,9 @@
+/* Display property */
+h1{
+    display: inline-block;
+    width: 500px;
+    border-style: solid;
+  }
+  b{
+    display: block;
+  }

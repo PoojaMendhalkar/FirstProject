@@ -1,0 +1,13 @@
+/* Backgraond image property */
+
+.three{
+    
+   height: 300px;
+   border-style: solid;
+   background-image: url("image1.jpg");
+   
+   /* background-size: 100%; */
+   background-repeat: repeat;
+   background-attachment: fixed;
+
+}

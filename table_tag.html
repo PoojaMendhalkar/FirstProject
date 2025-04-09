@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    th = table heading
+    tr = table row 
+    td = table data
+    ROLL NO    NAME      PERCENTAGE
+    --------------------------------
+    101        Pooja       90
+    102        Rahul       98
+    103        Pranjal     81.3 
+    
+    cell padding = distance between content and border
+    cell spacing = distance of border
+    colspan = 
+    rowspan = 
+    -->
+
+    <table border="1" cellpadding="10px" cellspacing="5px" style="color: brown" align="center">
+        <tr>
+            <th>ROLL NO</th>
+            <th>NAME</th>
+            <th>PERCENTAGE</th>
+            <th>Remark</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Pooja</td>
+            <td>90</td>
+            <td rowspan="2">First Class</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Rahul</td>
+            <td>98</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Pranjal</td>
+            <td>81.3</td>
+            <td>Second class</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total</td>
+            <td>79.99</td>
+        </tr>
+    </table>
+</body>
+</html>

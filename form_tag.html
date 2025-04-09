@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Form Tag : 
+    <form method=Get/Post  action="" encType=""
+    -->
+    <form>
+        <fieldset>
+        <table>
+            <tr>
+                <td><label for="one">Name:</label></td>
+                <td><input id="one" type="text" name="sname" placeholder="Enter name"></td>
+            </tr>
+            <tr>
+                <td><label for="two">Roll No:</label></td>
+                <td><input id="two" type="number" name="srollno" placeholder="Enter roll no"></td>
+            </tr>
+            <tr>
+                <td><label for="three">DOB:</label></td>
+                <td><input id="three" type="date" name="sdob" placeholder="Enter DOB"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="four">Email:</label></td>
+                <td><input id="four" type="email" name="email" placeholder="Enter email address"/></td>
+            </tr>
+            <tr>
+                <td><label for="five">Contact:</label></td>
+                <td><input id="five" type="text" maxlength="10" minlength="10" name="mob no" placeholder="Enter contact number"/></td>
+            </tr>
+            <tr>
+                <td><label for="six">Password:</label></td>
+                <td><input id="six" type="password" name="pass" placeholder="Enter password"/></td>
+            </tr>
+            <tr>
+                <td><label for="seven">Attachment:</label></td>
+                <td><input id="seven" type="file" name="sfile" multiple/></td>
+            </tr>
+            <tr>
+                <td><label>Year:</label></td>
+                <td>
+                    <select name="y" multiple >
+                        <option value="1">First year</option>
+                        <option value="2">Second year</option>
+                        <option value="3">Third year</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Select Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="F" />Female
+                    <input type="radio" name="gender" value="M" />Male
+                </td>
+            </tr>
+            <tr>
+                <td><label>Select Course:</label></td>
+                <td>
+                    <input type="checkbox" name="course" value="html" />HTML
+                    <input type="checkbox" name="course" value="css" />CSS
+                    <input type="checkbox" name="course" value="JS" />JAVASCRIT
+                </td>
+            </tr>
+            <tr>
+                <td><label>User Id:</label></td>
+                <td><input type="text" name="uid" value="20" readonly/></td>
+            </tr>
+            <tr>
+                <td><label>User Id:</label></td>
+                <td><input type="text" name="uid" value="20" readonly hidden/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="Sent" placeholder="Enter submit">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>

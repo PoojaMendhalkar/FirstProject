@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student|Profile</title>
+    <!-- <link href="CreateProfile.css" rel="stylesheet"> -->
+     <style>
+      td>b{
+            text-align: center;
+        }
+     </style>
+</head>
+<body>
+    <form>
+        <br><br><br><br>
+        <table align="center" >
+            <tr>
+                <th colspan="2" style="font-size: large; padding-bottom: 20px;">Create Profile</th>
+            </tr>
+            <tr>
+                <td><b>First Name</b></td>
+                <td><input type="text" name="firstname" placeholder="First Name" required></td>
+            </tr>
+            <tr>
+                <td><b>Last Name:</b></td>
+                <td><input type="text" name="lastname" required></td>
+            </tr>
+            <tr>
+                <td><b>Date of Birth:</b></td>
+                <td><input type="date" name="dob" placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <td><b>Age:</b></td>
+                <td><input type="number" name="age" placeholder="Age" required></td>
+            </tr>
+            <tr>
+                <td><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="gender" value="M" checked/>Male
+                    <input type="radio" name="gender" value="F" />Female
+                </td>
+            </tr>
+            <tr>
+                <td><b>Current Address:</b></td>
+                <td><input type="text" name="currentaddress" required style="width: 300px; height: 100px;"></td>
+            </tr>
+            <tr>
+                <td><b>Permanent Address:</b></td>
+                <td><input type="text" name="permanentaddress" required style="width: 300px; height: 100px;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Create">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
