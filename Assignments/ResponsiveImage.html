@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Images</title>
+    <style>
+        @media only screen and (min-width:701px)
+        {
+        .one{
+        width:100%;
+        }
+        }
+        @media only screen and (max-width:700px)
+        {
+        .two{
+        width:100%;
+        }
+        }
+    </style>
 </head>
 <body>
-    <img src="headset1.webp" alt="First Headset Image">
+    <!-- <img class="one" src="image111.png" alt="First Headset Image">
+    <img class="one" src="image222.jpg" alt="Second Headset Image"> -->
+
+    <picture>
+        <source media="(max-width: 700px)" src="image111.png">
+        <source media="(min-width: 701px)" src="image222.jpg">
+        <img src="image111.png" alt="Responsive Example Image">
+      </picture>
+    
 </body>
 </html>
