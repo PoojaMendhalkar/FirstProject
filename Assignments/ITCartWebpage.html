@@ -5,8 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITCART</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <Style>
+        .distance{
+            padding-bottom: 10px;
+        }
+    </Style>
 </head>
 <body>
+    <div>
+        <div class="row"> <!-- 1st row  -->
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-primary" style="padding-left: 10px;" href="#"><b>ITCART</b></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#"><b>Home</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Account
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Login</a></li>
+                          <li><a class="dropdown-item" href="#">Register</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search" style="padding-right: 10px;">
+                      <input class="form-control me-2" type="search" placeholder="Search site" aria-label="Search">
+                      <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        <div class="row"> <!-- 2nd row  -->
+            <div class="col-3" style="padding-left: 100px; padding-top: 100px;">
+                <nav class="nav flex-column">
+                    <h5 class="text-primary">Categories available</h5><hr>
+                    <a class="link-dark distance" href="#">Laptops</a>
+                    <a class="link-dark distance" href="#">Personal Computers</a>
+                    <a class="link-dark distance" href="#">Tablets</a>
+                    <a class="link-dark" href="#">Headphones</a><br>
+                    <h5 class="text-primary">Reviews</h5><hr>
+                    <a class="link-dark distance" href="#">For Services</a>
+                    <a class="link-dark distance" href="#">For Products</a>
+                    <a class="link-dark" href="#">For Consultation</a>
+                  </nav>
+            </div>
+            <div class="col-9" style="padding-right: 100px; padding-top: 100px;">
+                <h4>India's Leading and Trusted tech paradise - <span class="text-primary">ITCART</span></h4>
+                <p>At the forefront of AI innovation, we're committed to reshaping business operations with transparent, fair, and secure AI tools. Our vision extends to empowering enterprises of all sizes, ensuring AI becomes a positive force for transformation in both business and personal realms.Dedicated to delivering intelligent, ethical, and secure IT solutions, we strive for meaningful innovation. By prioritizing transparency, fairness, and security, we aim to create a future where AI enhances every facet of our professional and personal experiences.
+                    IT Cart offers an expansive and meticulously curated spectrum of services, strategically fashioned to invigorate businesses across diverse domains. Ranging from cutting-edge application development to fortified cybersecurity solutions, our comprehensive suite is dedicated to unlocking the full potential of your enterprise. With a keen focus on innovation, efficiency, and security, we aim to empower businesses to navigate and excel within today's dynamic and ever-evolving market landscape.</p>
+                    <p>We are industry trailblazers, revolutionizing the technology landscape by pioneering accessible and innovative technology solutions. As pioneers in the realm of technology, we are dedicated to making AiX accessible and adaptable to businesses of all sizes, empowering every enterprise to thrive in the digital age.</p>
+            </div>
+        </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
