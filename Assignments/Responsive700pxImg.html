@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+</head>
+<style>
+    body {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .responsive-image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+
+    /* Show Image A by default */
+    .image-desktop {
+      display: block;
+    }
+
+    .image-mobile {
+      display: none;
+    }
+
+    /* When screen width is 700px or less */
+    @media screen and (max-width: 700px) {
+      .image-desktop {
+        display: none;
+      }
+
+      .image-mobile {
+        display: block;
+      }
+    }
+  </style>
+<body>
+    <h2>Responsive Image Demo</h2>
+
+  <!-- Image shown on screens above 700px -->
+  <img src="image111.png" class="responsive-image image-desktop" alt="Desktop Version" />
+
+  <!-- Image shown on screens below 700px -->
+  <img src="image222.jpg" class="responsive-image image-mobile" alt="Mobile Version" />
+
+</body>
+</html>
