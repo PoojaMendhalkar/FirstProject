@@ -13,6 +13,7 @@
     <style>
         p{
             font-size: large;
+            color: antiquewhite;
         }
         h1{
             color: blue;
@@ -25,7 +26,7 @@
 <body style="background-image: url('foodbg1.avif');">
     <!-- "background-color: rgb(4, 56, 56);" -->
     <br><br><br><br>
-    <div class="container text-center" style="background-color: rgb(230, 139, 230)">
+    <div class="container text-center" style="margin-left: 300px; margin-top: 150px; margin-right: 100px; background-color: rgb(61, 1, 61)">
         <div class="row">
           <div class="col">
             <form>
@@ -38,7 +39,7 @@
           </div>
           <div class="col">
             <form>
-                <table style="align-items: center; border: double; background-color: cornsilk; height: 300px; width: 300px;" >
+                <table style="align-items: center; border: double; background-color: rgb(204, 202, 98); height: 300px; width: 300px;" >
                     <tr >
                         <td colspan="2" style="font-size: x-large; padding-bottom: 4px;" align="center"><h1>Log In</h1></td>
                     </tr>
@@ -56,7 +57,16 @@
                     </tr>
                     <tr>
                         <td colspan="2" align="center">
-                            <input type="submit" value="Login">
+                             <input type="button" class="btn btn-primary" value="Login">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <p>
+                                Not a User?
+                                <a href="Register.html" class="text-decoration-none">Register</a>
+                              </p>
+                            <!-- <input type="submit" value="Login"> -->
                         </td>
                     </tr>
                 </table>
